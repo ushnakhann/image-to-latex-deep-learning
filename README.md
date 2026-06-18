@@ -61,10 +61,15 @@ https://huggingface.co/datasets/yuntian-deng/im2latex-100k
 
 ```text
 .
-├── csc_331_final_project_final.py
+
+├── README.md
 ├── requirements.txt
-├── ECE_CSC_331_FinalReport.pdf
-└── README.md
+├── notebooks/
+│   └── csc_331_final_project_final.ipynb
+├── reports/
+│   └── ECE_CSC_331_FinalReport.pdf
+└── src/
+    └── csc_331_final_project_final.py
 ```
 
 ---
@@ -85,9 +90,6 @@ pip install -r requirements.txt
 ```bash
 python csc_331_final_project_final.py
 ```
-
-The first run may take several minutes as the dataset is automatically downloaded and processed.
-
 ---
 
 ## Main Finding
